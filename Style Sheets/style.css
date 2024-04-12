@@ -1,0 +1,328 @@
+/* Fonts */
+@font-face
+{
+    font-family: manrope-reg;
+    src: url(../Fonts/Manrope-Regular.ttf);
+}
+
+@font-face 
+{
+    font-family: manrope-semi-bold;
+    src: url(../Fonts/Manrope-SemiBold.ttf);
+}
+
+@font-face
+{
+    font-family: manrope-md;
+    src: url(../Fonts/Manrope-Medium.ttf);
+}
+
+/* Body selector */
+body
+{
+    background-color: black;
+    font-family: manrope-reg;
+}
+
+/* NAVIGATION BAR */
+
+/* Nav Bar */
+.nav-bar
+{
+    background-color: black;
+}
+
+/* Div of the Unordered List within the Nav Bar */
+.ul-div
+{
+    display: flex !important;
+    align-items: end !important;
+    height: 50px;
+}
+
+/* The Unordered List within the Nav Bar */
+.nav-ul
+{
+    border: 1px solid #1C1C21;
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-collapse: collapse;
+    width: 480px !important;
+    margin-bottom: -10px;
+}
+
+/* Links within the Unordered List */
+.nav-li
+{
+    border: 1px solid #1C1C21;
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-collapse: collapse;
+    width: 120px !important;
+}
+
+/* Pesudo Class applied on the Links within the Unordered List */
+.nav-li:hover
+{
+    background-color: #1C1C21;
+}
+
+/* Sub class of the Links within the Unordered List */
+.nav-sub-li
+{
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+/* Another sub class of the Links within the Unordered List */
+.nav-sub-li2
+{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+/* Contact Button in the Nav Bar */
+.contact-btn
+{
+    background-color: #1C1C21;
+    width: 150px;
+    height: 60px;
+}
+
+/* MEDIA QUERY TO TARGET MEDIUM SCREEN DEVICES */
+@media screen and (min-width: 768px) and (max-width:991px)
+{
+     /* Div of the Unordered List within the Nav Bar */
+     .ul-div
+     {
+         height: 250px;
+     }
+
+    /* The Unordered List within the Nav Bar */
+    .nav-ul
+    {
+        border: none;
+        width: 100%;
+    }
+
+    /* Links within the Unordered List */
+    .nav-li
+    {
+        border: none;
+    }
+}
+
+
+/* MEDIA QUERY TO TARGET SMALL SCREEN DEVICES */
+@media screen and (max-width:767px)
+{
+    /* .nav-div
+    {
+        padding-right: -12px !important;
+    } */
+
+    /* Div of the Unordered List within the Nav Bar */
+    .ul-div
+    {
+        height: 250px;
+    }
+
+    /* The Unordered List within the Nav Bar */
+    .nav-ul
+    {
+        border: none;
+        width: 100%;
+    }
+
+    /* Links within the Unordered List */
+    .nav-li
+    {
+        border: none;
+    }
+
+    /* Contact Button in the Nav Bar */
+    .contact-btn
+    {
+        display: none;
+    }
+}
+
+/* HERO SECTION#01 */
+
+/* Small Heading of the Hero Section#01 */
+.hero-sub-head
+{
+    color: #62646C;
+}
+
+/* First main Heading of the Hero Section#01 */
+.hero-head
+{
+    font-size: 50px;
+    font-family: manrope-semi-bold;
+}
+
+/* Second main Heading of the Hero Section#01 */
+.hero-head2
+{
+    font-size: 50px;
+    font-family: manrope-md;
+}
+
+/* Button in the Hero Section#01 */
+.hero-btn
+{
+    background-color: transparent;
+    border: none;
+}
+
+/* MEDIA QUERY TO TARGET MEDIUM SCREEN DEVICES */
+@media screen and (min-width: 768px) and (max-width:991px)
+{
+    /* Small Heading of the Hero Section#01 */
+    .hero-sub-head
+    {
+        font-size: 20px !important;
+    }
+
+    /* First main Heading of the Hero Section#01 */
+    .hero-head
+    {
+        font-size: 30px !important;
+    }
+
+    /* Button in the Hero Section#01 */
+    .hero-btn
+    {
+        width: 100px !important;
+        height: 100px !important;
+    }
+}
+
+/* MEDIA QUERY TO TARGET SMALL SCREEN DEVICES */
+@media screen and (min-width:576px) and (max-width: 767px)
+{
+    /* Hero Section# 01 */
+
+    /* Small Heading of the Hero Section#01 */
+    .hero-sub-head
+    {
+        font-size: 10px !important;
+    }
+
+    /* First main Heading of the Hero Section#01 */
+    .hero-head
+    {
+        font-size: 25px !important;
+    }
+
+    /* Second main Heading of the Hero Section#01 */
+    .hero-head2
+    {
+        font-size: 25px !important;
+    }
+
+    /* Button in the Hero Section#01 */
+    .hero-btn
+    {
+        width: 100px !important;
+        height: 100px !important;
+    }
+
+    /* Background Image of the Hero Section#01 */
+    .hero-bg
+    {
+        width: 150px;
+    }
+}
+
+/* MEDIA QUERY TO TARGET EXTRA SMALL SCREEN DEVICES */
+@media screen and (max-width:575px)
+{
+    /* Small Heading of the Hero Section#01 */
+    .hero-sub-head
+    {
+        font-size: 20px !important;
+    }
+
+    /* First main Heading of the Hero Section#01 */
+    .hero-head
+    {
+        font-size: 40px !important;
+    }
+
+    /* Second main Heading of the Hero Section#01 */
+    .hero-head2
+    {
+        font-size: 40px !important;
+    }
+
+    /* Button in the Hero Section#01 */
+    .hero-btn
+    {
+        width: 120px !important;
+        height: 120px !important;
+    }
+}
+
+/* HERO SECTION#02 */
+
+.hero-head2
+{
+    background-color: black;
+}
+
+.black-bg
+{
+    background-color: black;
+}
+
+.h2-ul
+{
+    background-color: #1C1C21;
+}
+
+.h2-link:hover
+{
+    border: 1px solid #1C1C21 !important;
+}
+
+/* MEDIA QUERY TO TARGET MEDIUM SCREEN DEVICES */
+@media screen and (min-width: 768px) and (max-width:991px)
+{
+    .h2-ul
+    {
+        display: none;;
+    }
+}
+
+/* MEDIA QUERY TO TARGET SMALL SCREEN DEVICES */
+@media screen and (min-width:576px) and (max-width: 767px)
+{
+    .h2-ul
+    {
+        display: none;;
+    }
+
+    .h2-link
+    {
+        font-size: 15px;
+    }
+}
+
+/* MEDIA QUERY TO TARGET EXTRA SMALL SCREEN DEVICES */
+@media screen and (max-width:575px)
+{
+    .h2-ul
+    {
+        display: none;;
+    }
+
+    .h2-bg
+    {
+        height: 300px;
+        object-fit: fill;
+    }
+}
