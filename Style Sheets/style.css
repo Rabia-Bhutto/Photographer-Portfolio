@@ -326,3 +326,48 @@ body
         object-fit: fill;
     }
 }
+
+/* ABOUT INFO SECTION */
+
+
+.bord
+{
+    border: 1px solid #1C1C21;
+    border-collapse: collapse;
+}
+
+.direct-links
+{
+    border: 1px solid #1C1C21;
+    border-radius: 20px;
+    width: 150px !important;
+    height: 50px;
+}
+
+.icon-btn
+{
+    background-color: #1C1C21;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    width: 40px;
+}
+
+/* MEDIA QUERY TO TARGET SMALL SCREEN DEVICES */
+@media screen and (min-width:576px) and (max-width: 767px)
+{
+    .d-btn-sub
+{
+    width: 100%;
+}
+}
+
+/* MEDIA QUERY TO TARGET EXTRA SMALL SCREEN DEVICES */
+@media screen and (max-width:575px)
+{
+    .d-btn-sub
+{
+    width: 100%;
+}
+}
+
