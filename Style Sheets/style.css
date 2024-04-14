@@ -17,6 +17,12 @@
     src: url(../Fonts/Manrope-Medium.ttf);
 }
 
+*
+{
+    /* border: 1px solid red; */
+    overflow-x: hidden;
+}
+
 /* Body selector */
 body
 {
@@ -112,6 +118,12 @@ body
     {
         border: none;
     }
+
+    /* Contact Button in the Nav Bar */
+    .contact-btn
+    {
+        display: none;
+    }
 }
 
 
@@ -155,6 +167,7 @@ body
 .hero-sub-head
 {
     color: #62646C;
+    overflow: hidden;
 }
 
 /* First main Heading of the Hero Section#01 */
@@ -162,6 +175,7 @@ body
 {
     font-size: 50px;
     font-family: manrope-semi-bold;
+    overflow: hidden;
 }
 
 /* Second main Heading of the Hero Section#01 */
@@ -269,21 +283,25 @@ body
 
 /* HERO SECTION#02 */
 
+/* For background color */
 .hero-head2
 {
     background-color: black;
 }
 
+/* For background color */
 .black-bg
 {
     background-color: black;
 }
 
+/* The Unordered list of the Hero Section#02 */
 .h2-ul
 {
     background-color: #1C1C21;
 }
 
+/* Pseudo Class on the List Items of the Unordered list of the Hero Section#02 */
 .h2-link:hover
 {
     border: 1px solid #1C1C21 !important;
@@ -292,6 +310,7 @@ body
 /* MEDIA QUERY TO TARGET MEDIUM SCREEN DEVICES */
 @media screen and (min-width: 768px) and (max-width:991px)
 {
+    /* The Unordered list of the Hero Section#02 */
     .h2-ul
     {
         display: none;;
@@ -301,11 +320,13 @@ body
 /* MEDIA QUERY TO TARGET SMALL SCREEN DEVICES */
 @media screen and (min-width:576px) and (max-width: 767px)
 {
+    /* The Unordered list of the Hero Section#02 */
     .h2-ul
     {
         display: none;;
     }
 
+    /* List Items of the Unordered list of the Hero Section#02 */
     .h2-link
     {
         font-size: 15px;
@@ -315,11 +336,13 @@ body
 /* MEDIA QUERY TO TARGET EXTRA SMALL SCREEN DEVICES */
 @media screen and (max-width:575px)
 {
+    /* The Unordered list of the Hero Section#02 */
     .h2-ul
     {
         display: none;;
     }
 
+    /* Background of the Hero Section#02 */
     .h2-bg
     {
         height: 300px;
@@ -329,13 +352,28 @@ body
 
 /* ABOUT INFO SECTION */
 
+/* The Header/ Top Div of the About Info Section */
+.about-header
+{
+    border-bottom: 1px solid #1C1C21;
+}
 
+/* The "Know More" button */
+.know-more-btn
+{
+    background-color: #1C1C21;
+    /* width: 200px;
+    height: 60px; */
+}
+
+/* To apply the borders around the section */
 .bord
 {
     border: 1px solid #1C1C21;
     border-collapse: collapse;
 }
 
+/* Div containing the Icons */
 .direct-links
 {
     border: 1px solid #1C1C21;
@@ -344,6 +382,7 @@ body
     height: 50px;
 }
 
+/* Icon Buttons */
 .icon-btn
 {
     background-color: #1C1C21;
@@ -356,18 +395,121 @@ body
 /* MEDIA QUERY TO TARGET SMALL SCREEN DEVICES */
 @media screen and (min-width:576px) and (max-width: 767px)
 {
+    /* The Header/ Top Div of the About Info Section */
+    .about-header
+    {
+        padding-bottom: 10px;
+    }
+
+    /* Sub div of the Direct Links Button */
     .d-btn-sub
-{
-    width: 100%;
-}
+    {
+       width: 100%;
+    }
+
+    /* Responsive Heading of the About Section */
+    .about-res-head
+    {
+        gap: 20px;
+    }
 }
 
 /* MEDIA QUERY TO TARGET EXTRA SMALL SCREEN DEVICES */
 @media screen and (max-width:575px)
 {
+    /* The Header/ Top Div of the About Info Section */
+    .about-header
+    {
+        padding-bottom: 20px;
+    }
+
+    /* Sub div of the Direct Links Button */
     .d-btn-sub
-{
-    width: 100%;
+    {
+       width: 100%;
+    }
+
+    /* Responsive Heading of the About Section */
+    .about-res-head
+    {
+        gap: 10px;
+    }
 }
+
+/* SERVICES SECTION */
+
+/* Icons in the Header Section */
+.chevrons
+{
+    border: 1px solid #1C1C21;
+    border-radius: 20px;
+    width: 100px !important;
+    height: 50px;
+}
+
+/* Text Color of the Introduction Part */
+.ip-color
+{
+    color: #797C86 !important;
+}
+
+/* Button of the Introduction Part */
+.ip-btn
+{
+    background-color: transparent;
+    border: none;
+    width: 100px !important;
+    height: 100px !important;
+}
+
+/* Text of the Services Section */
+.service-text
+{
+    font-size: 12px !important;
+}
+
+/* List Items of the Service Highlights List */
+.service-item
+{
+    border: 1px solid #1C1C21;
+    border-radius: 10px;
+    color: #AFB0B6;
+    height: 50px;
+}
+
+/* Icon Image of the Service highlights Part */
+.icon3
+{
+    width: 30px;
+    height: 30px;
+}
+
+/* PORTFOLIO SECTION */
+
+.card-bg
+{
+    background-color: black;
+}
+
+.card-head
+{
+    font-size: 10px !important;
+}
+
+.card-p
+{
+    color: #797C86;
+    font-size: 10px !important;
+}
+
+.card-btn
+{
+    font-size: 10px !important;
+}
+
+.icon4
+{
+    width: 10px;
+    height: 10px;
 }
 
