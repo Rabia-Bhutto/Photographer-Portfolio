@@ -64,7 +64,7 @@
     <!-- Nav Bar ends here -->
 
     <!-- Hero Section#01 starts here -->
-    <section class="hero1">
+    <section class="hero1 mt-5 mt-md-0">
         <div class="container-fluid container-lg text-white mx-auto">
             <div class="row align-items-center justify-content-center text-left d-block d-sm-flex">
                 <!-- Column# 01 -->
@@ -130,7 +130,7 @@
     <!-- About Info Section starts here -->
     <!-- Header of Info Section starts here -->
     <div>
-        <div class="container container-lg text-white mt-5 mx-auto about-header">
+        <div class="container-fluid container-lg text-white mt-5 pb-5 mx-auto about-header">
             <div class="about-res-head row align-items-center justify-content-between text-left d-block d-md-flex">
                 <!-- Column# 01 -->
                 <div class="col-12 col-md-6">
@@ -153,16 +153,18 @@
         </div>
         <!-- Header of Info Section ends here -->
 
+
+
         <!-- Main Info details part starts here -->
-        <div class="container col-xxl-8 px-4 py-5">
-            <div class="row align-items-center g-5 py-5">
+        <div class="container-fluid col-xxl-8 px-4 py-5">
+            <div class="row align-items-center g-5 py-5 responsive-query">
                 <!-- Image -->
-                <div class="col-12 col-sm-12 col-lg-6">
+                <div class="col-12 col-sm">
                     <img src="Images/damien.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700"
                         height="500" loading="lazy">
                 </div>
                 <!-- Introduction part starts here -->
-                <div class="col-lg-6">
+                <div class="col-12 col-sm">
                     <div class="container">
                         <div class="row bord">
                             <div class="col">
@@ -210,18 +212,18 @@
                                     <div
                                         class="direct-links d-flex gap-2 justify-content-center align-items-center mb-4 mb-md-0">
                                         <button class="icon-btn">
-                                            <span class="social-icons"><i class="fa-brands fa-facebook fa-lg"
-                                                    style="color: #fcfcfc;"></i></span>
+                                            <span class="social-icons"><img src="Images/icon5.png" alt="Facebook"
+                                                    class="img-fluid"></span>
                                         </button>
 
                                         <button class="icon-btn">
-                                            <span class="social-icons"><i class="fa-brands fa-twitter fa-lg"
-                                                    style="color: #ffffff;"></i></span>
+                                            <span class="social-icons"><img src="Images/icon6.png" alt="Twitter"
+                                                    class="img-fluid"></span>
                                         </button>
 
                                         <button class="icon-btn">
-                                            <span class="social-icons"><i class="fa-brands fa-linkedin fa-lg"
-                                                    style="color: #ffffff;"></i></span>
+                                            <span class="social-icons"><img src="Images/icon7.png" alt="LinkedIn"
+                                                    class="img-fluid"></span>
                                         </button>
                                     </div>
 
@@ -245,11 +247,10 @@
         <!-- Main Info details part ends here -->
         <!-- About Info Section ends here -->
 
-
         <!-- Services Section starts here -->
         <!-- Header of Services Section starts here -->
         <div>
-            <div class="container container-lg text-white mt-5 mx-auto about-header">
+            <div class="container-fluid container-lg text-white mt-5 mx-auto about-header pb-5">
                 <div class="about-res-head row align-items-center justify-content-between text-left d-block d-md-flex">
                     <!-- Column# 01 -->
                     <div class="col-12 col-md-6">
@@ -287,15 +288,15 @@
             <!-- Header of Info Section ends here -->
 
             <!-- Main Info Details Section starts here -->
-            <div class="container col-xxl-8 px-4 py-5">
-                <div class="row align-items-center g-5 py-5">
+            <div class="container-fluid col-xxl-8 px-4 py-5">
+                <div class="row align-items-center g-5 py-5 responsive-row">
                     <!-- Image -->
-                    <div class="col-12 col-sm-12 col-lg order-lg-2">
-                        <img src="Images/services-bg.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes"
-                            width="700" height="500" loading="lazy">
+                    <div class="col-12 col-sm order-lg-2">
+                        <img src="Images/services-bg.png" class="d-block mx-lg-auto img-fluid services-bg"
+                            alt="Bootstrap Themes" width="700" height="500" loading="lazy">
                     </div>
                     <!-- Introduction part starts here -->
-                    <div class="col order-lg-1">
+                    <div class="col-12 col-sm order-lg-1">
                         <div class="container">
                             <div class="row bord">
                                 <div class="col">
@@ -346,7 +347,7 @@
             <!-- Portfolio Section starts here -->
             <!-- Header part starts here -->
             <div>
-                <div class="container container-lg text-white mt-5 mx-auto about-header">
+                <div class="container container-lg text-white mt-5 mx-auto about-header pb-5">
                     <div
                         class="about-res-head row align-items-center justify-content-between text-left d-block d-md-flex">
                         <!-- Column# 01 -->
@@ -384,11 +385,10 @@
                 </div>
                 <!-- Header part ends here -->
                 <!-- Cards starts here -->
-                <div class="container d-flex justify-content-center">
-                    <div class="row w-100">
-
-                        <div class="col">
-                            <div class="card card-bg" style="width: 18rem;">
+                <div class="container-fluid d-flex justify-content-center mt-5">
+                    <div class="row card-row w-100 gap-5">
+                        <div class="col-12 col-md">
+                            <div class="card card-bg w-100" style="width: 18rem;">
                                 <img src="Images/card-img1.png" class="card-img-top" alt="...">
                                 <div class="card-body d-flex justify-content-between">
                                     <div>
@@ -403,8 +403,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col">
-                            <div class="card card-bg" style="width: 18rem;">
+                        <div class="col-12 col-md">
+                            <div class="card card-bg w-100" style="width: 18rem;">
                                 <img src="Images/card-img2.png" class="card-img-top" alt="...">
                                 <div class="card-body d-flex justify-content-between">
                                     <div>
@@ -419,8 +419,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col">
-                            <div class="card card-bg" style="width: 18rem;">
+                        <div class="col-12 col-md w-100">
+                            <div class="card card-bg w-100" style="width: 18rem;">
                                 <img src="Images/card-img3.png" class="card-img-top" alt="...">
                                 <div class="card-body d-flex justify-content-between">
                                     <div>
@@ -439,6 +439,209 @@
                 </div>
                 <!-- Cards ends here -->
                 <!-- Portfolio Section ends here -->
+
+                <!-- FAQ Section starts here -->
+                <!-- Header starts here -->
+                <div>
+                    <div class="container container-lg text-white mt-5 mx-auto about-header pb-5">
+                        <div
+                            class="about-res-head row align-items-center justify-content-between text-left d-block d-md-flex">
+                            <!-- Column# 01 -->
+                            <div class="col-12 col-md-6">
+                                <div class="mx-auto">
+                                    <h6 class="hero-sub-head fs-5">FAQs</h6>
+                                    <h1 class="hero-head pt-2 fs-2">FREQUENTLY ASKED QUESTIONS</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Header ends here -->
+
+                    <!-- FAQ Questions starts here -->
+                    <div class="container col-xxl-8 px-4 py-5">
+                        <div class="row align-items-center g-5 py-5 responsive-row row-border">
+                            <!-- Columm# 01 starts here -->
+                            <div class="col-12 col-sm">
+                                <div class="list l1">
+                                    <div class="sub-list-item d-flex justify-content-between">
+                                        <h4 class="faq-item fs-6 d-flex align-items-center ps-2 text-uppercase">What
+                                            type of
+                                            photography do you specialize in?</h4>
+                                        <img src="Images/icon9.png" alt="" class="img-fluid faq-icons">
+                                    </div>
+                                    <div class="sub-list-item d-flex justify-content-between">
+                                        <h4 class="faq-item fs-6 d-flex align-items-center ps-2 text-uppercase mt-3">How
+                                            can I book a photography session with you?</h4>
+                                        <img src="Images/icon9.png" alt="" class="img-fluid faq-icons">
+                                    </div>
+                                    <div class="sub-list-item d-flex justify-content-between">
+                                        <h4 class="faq-item fs-6 d-flex align-items-center ps-2 text-uppercase mt-3">
+                                            What
+                                            equipment do you use for your photography?</h4>
+                                        <img src="Images/icon9.png" alt="" class="img-fluid faq-icons">
+                                    </div>
+                                    <div class="sub-list-item d-flex justify-content-between">
+                                        <h4 class="faq-item fs-6 d-flex align-items-center ps-2 text-uppercase mt-3">Can
+                                            I request a specific location for a </h4>
+                                        <img src="Images/icon9.png" alt="" class="img-fluid faq-icons">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Column# 01 ends here -->
+
+                            <!-- Column# 02 starts here -->
+                            <div class="col">
+                                <div class="list l2">
+                                    <div class="list-item">
+                                        <div class="sub-list-item d-flex justify-content-between">
+                                            <h4 class="faq-item fs-6 d-flex align-items-center ps-2 text-uppercase">
+                                                What is your editing process like?</h4>
+                                            <img src="Images/icon9.png" alt="" class="img-fluid faq-icons">
+                                        </div>
+                                        <div class="sub-list-item d-flex justify-content-between">
+                                            <h4
+                                                class="faq-item fs-6 d-flex align-items-center ps-2 text-uppercase mt-3">
+                                                Are digital files included in your photography packages?</h4>
+                                            <img src="Images/icon9.png" alt="" class="img-fluid faq-icons">
+                                        </div>
+                                        <div class="sub-list-item d-flex justify-content-between">
+                                            <h4
+                                                class="faq-item fs-6 d-flex align-items-center ps-2 text-uppercase mt-3">
+                                                Do you offer prints of your photographs?</h4>
+                                            <img src="Images/icon9.png" alt="" class="img-fluid faq-icons">
+                                        </div>
+                                        <div class="sub-list-item d-flex justify-content-between">
+                                            <h4
+                                                class="faq-item fs-6 d-flex align-items-center ps-2 text-uppercase mt-3">
+                                                How long does it take to receive the edited photos after a session?
+                                            </h4>
+                                            <img src="Images/icon9.png" alt="" class="img-fluid faq-icons">
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- Column# 02 ends here -->
+                        </div>
+                    </div>
+                </div>
+                <!-- FAQ Questions ends here -->
+                <!-- FAQ Section ends here -->
+
+                <!-- Reviews Section starts here -->
+                <!-- Header starts here -->
+                <div>
+                    <div class="container container-lg text-white mt-5 mx-auto about-header pb-5">
+                        <div
+                            class="about-res-head row align-items-center justify-content-between text-left d-block d-md-flex">
+                            <!-- Column# 01 -->
+                            <div class="col-12 col-md-6">
+                                <div class="mx-auto">
+                                    <h6 class="hero-sub-head fs-5 text-uppercase">Testimonials</h6>
+                                    <h1 class="hero-head pt-2 fs-2 text-uppercase">What My Clients Say</h1>
+                                    <p class="hero-sub-head fs-6 text-uppercase small-head mt-4">Total Reviews</p>
+                                    <p class="hero-sub-head fs-4 text-uppercase text-white">323</p>
+                                </div>
+                            </div>
+
+                            <!-- Column# 02 -->
+                            <div class="col-12 col-md-6 align-items-end">
+                                <div class="d-flex gap-5 justify-content-md-end align-items-end">
+                                    <div
+                                        class="chevrons d-none d-md-flex gap-2 justify-content-center align-items-center mb-4 mb-md-0">
+                                        <button class="icon-btn">
+                                            <span class="social-icons"><i class="fa-solid fa-chevron-left"
+                                                    style="color: #ffffff;"></i></span>
+                                        </button>
+
+                                        <button class="icon-btn">
+                                            <span class="social-icons"><i class="fa-solid fa-chevron-right"
+                                                    style="color: #ffffff;"></i></span>
+                                        </button>
+                                    </div>
+
+
+                                    <div class="d-lg-flex">
+                                        <button class="btn know-more-btn text-white">View All Testimonials &nbsp<i
+                                                class="fa-solid fa-arrow-right" style="color: #ffffff;"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Header starts here -->
+
+                    <!-- Cards starts here -->
+                    <div class="container-fluid d-flex justify-content-center mt-5">
+                        <div class="row card-row w-100 gap-5">
+                            <div class="col-12 col-md">
+                                <div class="card card-w">
+                                    <div class="card-body review-card-bg">
+                                        <div class="header d-flex justify-content-between">
+                                            <div class="head">
+                                                <h5 class="card-title text-white">Emily Johnson</h5>
+                                                <h6 class="card-subtitle mb-2 card-sub-head">USA, California</h6>
+                                            </div>
+                                            <div
+                                                class="direct-links d-flex gap-2 justify-content-center align-items-center mb-4 mb-md-0 btn-bg">
+                                                <button class="icon-btn">
+                                                    <span class="social-icons"><img src="Images/icon5.png"
+                                                            alt="Facebook" class="img-fluid"></span>
+                                                </button>
+
+                                                <button class="icon-btn">
+                                                    <span class="social-icons"><img src="Images/icon6.png" alt="Twitter"
+                                                            class="img-fluid"></span>
+                                                </button>
+
+                                                <button class="icon-btn">
+                                                    <span class="social-icons"><img src="Images/icon7.png"
+                                                            alt="LinkedIn" class="img-fluid"></span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <p class="card-text text-white">Damien's photography doesn't just capture moments; it
+                                            captures emotions. Hes work is simply mesmerizing.</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div class="col-12 col-md">
+                                <div class="card card-bg w-100" style="width: 18rem;">
+                                    <img src="Images/card-img2.png" class="card-img-top" alt="...">
+                                    <div class="card-body d-flex justify-content-between">
+                                        <div>
+                                            <h5 class="card-title text-white card-head">A Wedding Tale</h5>
+                                            <p class="card-text card-p">January 2020</p>
+                                        </div>
+                                        <div>
+                                            <a href="#" class="btn card-btn text-white">VIEW PROJECT <img
+                                                    src="Images/icon4.png" alt="" class="img-fluid icon4">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md w-100">
+                                <div class="card card-bg w-100" style="width: 18rem;">
+                                    <img src="Images/card-img3.png" class="card-img-top" alt="...">
+                                    <div class="card-body d-flex justify-content-between">
+                                        <div>
+                                            <h5 class="card-title text-white card-head">Product Elegance</h5>
+                                            <p class="card-text card-p">March 2022</p>
+                                        </div>
+                                        <div>
+                                            <a href="#" class="btn card-btn text-white">VIEW PROJECT <img
+                                                    src="Images/icon4.png" alt="" class="img-fluid icon4">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                    <!-- Cards ends here -->
+                    <!-- Reviews Section ends here -->
 </body>
 
 </html>
