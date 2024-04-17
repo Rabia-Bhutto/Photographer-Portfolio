@@ -627,29 +627,107 @@ body
 
 /* REVIWS SECTION */
 
+/* Small Sub Heading of the Header */
 .small-head
 {
     font-size: 15px !important;
 }
 
+/* The Card */
 .card-w
 {
-    width: 400px;
+    border: none;
+    border-radius: 10px;
 }
 
+/* Background of the Card */
 .review-card-bg
 {
-    background-color: #1C1C21;
+    background-image: url("../Images/review-card-bg.png");
+    background-color: #0E0E10;
+    
 }
 
+/* Sub Heading of the Card */
 .card-sub-head
 {
     color: #62646C;
 }
 
+/* Background of the Buttons in the Card */
 .btn-bg
 {
     background-color: black;
     border-radius: 20px;
     width: 100px;
+}
+
+/* PRE-FOOTER */
+
+.name-img
+{
+    width: 600px;
+    height: 150px;
+}
+
+/* Button in theFooter */
+.hero-btn
+{
+    width: 80px !important;
+    height: 80px !important;
+}
+
+/* FOOTER */
+
+/* .footer-container
+{
+    background-image: url('../Images/foot-bg-2.png'), url('../Images/foot-bg1.png');
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+
+
+/* Headings of the list items of the Footer */
+.footer-li-head
+{
+    color: #797C86;
+    font-size: 15px;
+    overflow: hidden;
+}
+
+/* Font Size of the list items of the Footer */
+.li-fs
+{
+    font-size: 15px;
+}
+
+/* For underlining the Footer links */
+.underline
+{
+    border-bottom: 1px solid #1C1C21;
+}
+
+/* POST-FOOTER */
+
+.t-c-span
+{
+    border-right: 1px solid #1C1C21;
+}
+
+.p-foot-txt
+{
+    color: #797C86;
+}
+
+.border-grey
+{
+    border: 1px solid #1C1C21;
+    border-radius: 25px;
+}
+
+.border-t
+{
+    border-top: 1px solid #1C1C21;
 }
