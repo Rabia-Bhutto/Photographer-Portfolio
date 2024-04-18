@@ -378,8 +378,8 @@ body
 .direct-links
 {
     border: 1px solid #1C1C21;
-    border-radius: 20px;
-    width: 150px !important;
+    border-radius: 25px;
+    width: 150px;
     height: 50px;
 }
 
@@ -399,6 +399,12 @@ body
     .responsive-query
     {
         display: flex !important;
+    }
+
+    /* Font Size of the Paragrogh of the Intro Section */
+    .fs-intro
+    {
+       font-size: 15px;
     }
 }
 
@@ -711,23 +717,28 @@ body
 
 /* POST-FOOTER */
 
+/* To apply a border over the Post-Footer */
+.border-t
+{
+    border-top: 1px solid #1C1C21;
+}
+
+/* Terms & Conditions text */
 .t-c-span
 {
     border-right: 1px solid #1C1C21;
 }
 
+/* Text of the Post-Footer */
 .p-foot-txt
 {
     color: #797C86;
 }
 
+/* To apply a border around the icons in the Post-Footer */
 .border-grey
 {
     border: 1px solid #1C1C21;
     border-radius: 25px;
 }
 
-.border-t
-{
-    border-top: 1px solid #1C1C21;
-}
