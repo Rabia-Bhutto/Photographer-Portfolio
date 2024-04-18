@@ -21,6 +21,7 @@
 {
     /* border: 1px solid red; */
     overflow-x: hidden;
+    overflow-y: auto;
 }
 
 /* Body selector */
